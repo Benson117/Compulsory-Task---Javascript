@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* font used on the body*/
+    background-image: url("../images/banner.jpg"); /* This is the background of the caredealership page */
+}   
+
+.container {
+    display: flex;
+    flex-direction: column;
+   
+
+    margin-bottom: 40px;
+}
+
+/* below is the style of the section which contains car images and information*/
+#carDisplay {
+    display: flex;
+    flex-direction: row;
+    /* Places the element in a row */
+    flex-wrap: wrap;
+    /* Split elements into new lines as needed */
+    align-items: flex-start;
+  /* Place the element at the top of the box */
+
+    width: 80%;
+   /* Container in the center of the page */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Styling  individual divs with car information text */
+
+#carDisplay div {
+    background-color: #FFFFFF;
+    width: 50%;
+    padding: 65px;
+    margin: 4px;
+    border: 1px solid #163f62;
+}
+
+/* Styles of images on the car dealership page */
+.carPics {
+    width: 23%;
+    background-color: white;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* This gives images a circular like border */
+}
