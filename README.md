@@ -18,4 +18,4 @@ image of each car object in ‘cars.html’ when ‘cars.html’ is loaded.
 ● Whenever a user clicks on an image of a car, the showMore() method
 should be called and all the information about the car, including the
 registration number, price etc should be displayed.
-![IMG-20210824-WA0038](https://user-images.githubusercontent.com/70437721/211784069-a45bc486-e2c7-4edf-9d5d-63e1c2d334f7.jpg)
+
